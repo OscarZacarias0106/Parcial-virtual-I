@@ -16,7 +16,7 @@ class estudianteFactory extends Factory
 
     public function definition()
     {
-        $foto = ('uploads'); 
+        $foto = ('uploads');
 
         return [
             'nombre' =>$this->faker->name,
